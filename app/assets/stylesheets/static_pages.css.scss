@@ -39,12 +39,32 @@ body {
 }
 
 .blockone {
-  margin: 150px auto;
+  margin: 10% auto 5% auto;
   width: 40%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 2px;
   text-align: center;
   padding: 25px;
+}
+
+.pageone-btn {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 35px;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+}
+
+.pageone-btn a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .pageone h1 {
@@ -58,6 +78,7 @@ body {
 .btn, .dropdown-menu {
   font-size: 2.0em;
   text-align: center;
+  vertical-align: middle;
 }
 
 .dropdown-menu a:hover {
@@ -126,17 +147,6 @@ body {
   background-attachment: fixed;
 }
 
-.pattern-tile {
-  height: 250px;
-  width: 250px;
-  background-color: grey;
-  margin: 0px 30px 60px 30px;
-  border-radius: 20px;
-  text-align: center;
-  display:inline-block;
-  float:none;
-}
-
 .clear {
   clear: both;
 }
@@ -154,7 +164,7 @@ body {
 }
 
 .blockfour {
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 .blockfour h1 {
