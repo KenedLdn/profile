@@ -1,0 +1,174 @@
+body {
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+.navbar {
+  font-size: 2.0em;
+  margin: 0;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 2.0em;
+  margin: 0;
+  color: rgb(221, 29, 121);
+  text-shadow: 1px 1px rgb(88, 77, 81);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgb(103, 157, 219)
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: rgba(207, 211, 218, 0.8);
+}
+
+.navbar-default .dropdown-menu {
+    font-size: 20px;
+  }
+
+.pageone {
+  background: url( "/assets/profile_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blockone {
+  margin: 150px auto;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+  text-align: center;
+  padding: 25px;
+}
+
+.pageone h1 {
+  font-size: 8.5em;
+}
+
+.pageone h2 {
+  color: rgb(245, 67, 67);
+}
+
+.btn, .dropdown-menu {
+  font-size: 2.0em;
+  text-align: center;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: none;
+  background-color: rgba(146, 194, 228, 0.8);
+}
+
+::selection{
+	background-color: #FFF2C9;
+}
+
+.dropdown-item {
+  font-family: 'PT Sans', sans-serif;
+  padding: 5px;
+}
+
+.pagetwo {
+  background-color: black;
+  padding: 2%;
+  background: url( "/assets/zwartevilt_@2X.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%
+}
+
+.blocktwo {
+  font-size: 1.3em;
+  margin: auto auto;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: rgb(245, 67, 67);
+}
+
+#bio {
+  text-align: justify;;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.text-highlight {
+  color: rgb(245, 67, 67);
+}
+
+#languages {
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#tools {
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.picme .pattern-tile {
+  margin-top: 30px;
+}
+
+.pagethree {
+  background: url( "/assets/bg3.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pattern-tile {
+  height: 250px;
+  width: 250px;
+  background-color: grey;
+  margin: 0px 30px 60px 30px;
+  border-radius: 20px;
+  text-align: center;
+  display:inline-block;
+  float:none;
+}
+
+.clear {
+  clear: both;
+}
+
+.pagefour {
+  height: 90%;
+  background: url( "/assets/bg4.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%;
+  text-align: center;
+}
+
+.blockfour {
+  margin: 10px auto;
+}
+
+.blockfour h1 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-size: 7.0em;
+}
+
+iframe {
+  margin: 5%;
+}
